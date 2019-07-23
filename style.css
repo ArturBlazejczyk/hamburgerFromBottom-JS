@@ -1,0 +1,46 @@
+body{
+    height: 150vh;
+}
+
+.wrap {
+    margin: 10px 70px;
+}
+
+p {
+    font-size: 18px;
+    font-family: arial;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+.arrow {
+    position: fixed;
+    bottom: 3vh;
+    right: 3vh;
+    z-index: 1;
+    transition: .3s;
+}
+
+.arrow.on {
+    bottom: 31vh;
+    transform: rotate(180deg);
+}
+
+.fas {
+    font-size: 36px;
+    color: green;
+}
+
+nav {
+    position: fixed;
+    bottom: -28vh;
+    right: 0;
+    left: 0;
+    height: 30vh;
+    background-color: #000;
+    transition: .3s;
+}
+
+nav.on {
+    bottom: 0;
+}
